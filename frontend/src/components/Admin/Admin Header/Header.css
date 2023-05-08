@@ -1,0 +1,36 @@
+.admin-header{
+    height: 70px;
+  background-image: linear-gradient(#d4cbf0, #faaca8);
+    color: black;
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-evenly;
+
+}
+
+.admin-header div h5{
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.admin-header nav ul{
+    display: flex;
+}
+
+.admin-header nav ul li{
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    font-family: 'Jost',sans-serif;
+    margin-right:65px;
+}
+.admin-header nav ul a{
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,59 @@
+.contact-form {
+    padding: 50px;
+    margin-top: 0px;
+}
+.contact-form h1 {
+    color: black;
+    font-weight: bold;
+    margin: 0 0 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Jost',sans-serif;
+    opacity:0.9;
+}
+.contact-form .form-control, .contact-form .btn {
+    min-height: 38px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+
+}
+
+.contact-form .form-control:focus {
+    border-color: #000;
+    
+
+}
+.contact-form .btn-primary, .contact-form .btn-primary:active {
+    color: #fff;
+    min-width: 150px;
+    font-size: 19px;
+    background: palevioletred !important;
+    border: none;
+    font-family: 'Jost',sans-serif;
+
+}
+.contact-form .btn-primary:hover {
+    background:rgb(189, 95, 233) !important; 
+}
+.contact-form .btn i {
+    margin-right: 5px;
+}
+.contact-form label {
+    opacity: 0.7;
+    font-size: 20px;
+}
+.contact-form textarea {
+    resize: vertical;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+.hint-text {
+    font-size: 19px;
+    padding-bottom: 20px;
+    opacity: 0.9;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Jost',sans-serif;
+
+}

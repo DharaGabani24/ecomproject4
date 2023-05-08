@@ -1,0 +1,99 @@
+.box{
+    padding: 20px 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .container{
+    position: relative;
+}
+.btn-add{
+    position: absolute;
+    background-color: palevioletred ;
+    color: black;
+    margin-top: 15px;
+    right: 7%;
+    padding: 3px 20px;
+}
+.btn .btn-primary .my-2{
+  background-color: palevioletred
+    
+}
+.contact-form {
+  padding: 50px;
+  margin: 30px 0;
+}
+.contact-form h1 {
+  color: #000;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+.contact-form .form-control, .contact-form .btn {
+  min-height: 38px;
+  border-radius: 2px;
+  text-align: center;
+}
+.contact-form .form-control:focus {
+  border-color: #000;
+}
+.contact-form .btn-primary, .contact-form .btn-primary:active {
+  color: #fff;
+  min-width: 150px;
+  font-size: 16px;
+  background: palevioletred !important;
+  border: none;
+
+}
+.contact-form .btn-primary:hover {
+  background: palevioletred !important; 
+}
+.contact-form .btn i {
+  margin-right: 5px;
+}
+.contact-form label {
+  opacity: 0.7;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.hint-text {
+  font-size: 15px;
+  padding-bottom: 20px;
+  opacity: 0.6;
+}
+
+
+.paginationBttns {
+  border: none;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: static;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  color: #000;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.paginationBttns a:hover {
+  color: #fff!important;
+  border-radius: 3px;
+  background-color: palevioletred;
+}
+
+.paginationActive a {
+  color: black!important;
+  border-radius: 3px;
+font-weight: 500;
+  background-color: palevioletred!important;
+}
+
+.paginationDisabled a {
+  color: #000;
+  border-radius: 3px;
+  background-color:lightgrey;
+}
